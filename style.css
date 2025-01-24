@@ -1,231 +1,15 @@
+
+.html{
+    overflow-x:hidden ;
+}
 .container{
-   
-    overflow: hidden;
-}
-*{
-    margin: 0;
-    padding: 0;
-
-}
-html{
-    overflow-x: hidden;
-}
-header{
-   height: 70px;
-    display: flex;
-    justify-content:space-evenly;
-    box-sizing: border-box;
-    padding: 6px 10vw 6px 10vw;
-    color: white;
-    font-family:"roboto";
-    font-weight: 700;
-    font-style: normal;
-    background: black;
-    align-items:center;
-    overflow: hidden;
-   
-    
-}
-header>button>h3{
-    color: white;
-    background-color:black;
-    white-space: nowrap;
-    margin-left: 20px
-}
-#con{
-    background-color: black;
-  
-}
-#con>h3>i{
-    font-size: 20px;
-    transform: translateY(-5px);
-}
-header>button{
-    border: none;
-  
-
-}
-header>button>img{
-    border: none;
-height: 65px;
-}
-header>button{
-    height: 60px;
-   
-}
-#hide{
-    font-family: "roboto";
-    background-color: rgb(206, 19, 19);
-    border: none;
-    
-    border-radius: 16px;
-    font-size: 20px;
-    font-weight: 800;
-    padding-left: 35px;
-    padding-right: 35px;
-    height: 65px;
-   
-   
-}
-/* header done */
-#header2{
-    background-color:rgba(128, 128, 128, 0.078);
-    max-height: 60px;
-    padding-top:10px ;
-    font-family: "oswald";
-    font-weight: 650;
-    padding-left: 29px;
-    padding-right: 29px;
-}
-#header2>button>h2{
-  font-size:2.1vw;
-  font-family: "barlow semi condensed";
- 
-}
-#header2>button{
-    background-color: transparent;
-    
-}
-#header2>button>h2>i{
-    font-size: 2.4vw;
-}
-/* head2 end */
-.c1{
-    text-align: center;
-    font-size: 50px;
-  max-width: 1150px;
-    font-family: "barlow condensed";
-    font-weight: 600;
-    text-transform: uppercase;
-    
-}
-.c1>p>span{
-    color: rgb(164, 0, 0);
-    text-decoration: underline;
-}
-/*  */
-.c2{
-    max-width: 1200px;
-}
-.img1set{
-    display: grid;
-    place-items: center;
-    max-height:600px ;
-}
-.img1set>img{
-width: 90%;
-
-border-radius: 16px;
-}
-
-.side1set>p{
-    text-align: center;
-    color: rgb(164, 0, 0); ;
- font-size: 40px;
-    font-family: "barlow condensed";
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-#p2{
-    font-size: 42px;
-    color: black;
-    text-decoration: underline;
-}
-
-.p3>img{
-    margin-top: 9px;
-}
-
-
-#p3>i{
-    color: rgb(152, 5, 5);
-    margin-top: 10px;
-    font-size: 20px;
-}
-#p3{
-    margin: -10px;
- display: flex;
-    font-size: 30px;
-    font-family: "barlow condensed";
-    font-weight: 600;
-    text-transform: uppercase;
-    align-items:top;
-}
-#p3>section{
-    text-decoration: line-through;
-}
-#p4{
-    font-family: "barlow condensed";
-    font-weight: 700;
-    text-align: center;
-    color: orange;
-}
-
-/*  */
-@keyframes pop {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05); /* Reduced pop */
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-  
-  .popping-btn {
-    animation: pop 1.5s ease-in-out infinite;
-    padding: 30px 58px 30px 58px;
-    display: flex;
-    font-family: "passion one";
-    font-weight: 900;
-    justify-content: center;
-    background-color: red;
-
-
-}
-#shadow {
-    text-shadow: 2px 2px 5px black;
-    min-width: 230px;
- 
-}
-#shadow:hover{
-    text-decoration: underline;
-}
-.popping-btn>i{
-    margin-top: 12px;
-    margin-left: 10px;
-    font-size: 30px;
-}
-  
-#buttonhead{
-    display: grid;
-    place-items: center;
-}
-#buttonhead>p{
-margin-top: 12px;
-font-weight: 700;
-font-size: larger;
-
-color: grey;
-}
-#buttonhead>img{
-height: 50px;
-width: 280px;
+    width: 100%;
+    min-width: 320px;
 }
 .c3{
    background-color: black;
 }
-#black1{
- width: 100%;
- transform: translateY(4.3px);
 
- border: none;
- 
-}
 #black2{
     width: 100%;
  transform: translateY(-6px);
@@ -353,14 +137,6 @@ text-transform: uppercase;
     font-family: "barlow condensed";
     font-weight: 700;
     
-}
-.c5e1{
-    max-width: 900px;
-}
-.c5e1>#p3{
-   margin-bottom: -40px;
-   line-height: 50px;
-  
 }
 
 
@@ -538,4 +314,230 @@ max-width: 680px;
     text-decoration:none;
  }
  
+  /*  */
+  header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 70px;
+    font-family: "roboto";
+    overflow: hidden;
+    box-sizing: border-box;
+}
+header>button{
+    margin: 2%;
+    height: 60px;
+    font-size: auto;
+    white-space:nowrap;
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+#con>h3>i{
+    font-size:20px;
+   
+}
+header>button>img{
+    width:100px;
+    height: 65px;
+}
+#hide{
+    background-color: rgb(196, 9, 9);
+    border: none;
+    font-weight: 800;
+    border-radius: 16px;
+}
+nav{
+    font-family: "barlow condensed";
+    background-color: rgba(128, 128, 128, 0.162);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-height:65px;
+}
+nav>button{
+background: none;
+border: none;
+display: flex;
+}
+nav>button>i{
+    font-size: 40px;
+}
+.c1>{
+    display: grid;
+    place-items:center;
+ 
+}
+
+#textbox>p>span{
+    color: rgb(133, 15, 15);
+    text-decoration: underline;
+}
+
+#textbox>p{
+   text-transform: uppercase;
+    text-align: center;
+    font-family: "barlow condensed";
+    font-size:50px;
+    width: 75%;
+}
+#textbox{
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+}
+/*  */
+.c2>.row>.col-lg-6>img{
+    width: 100%;
+    height:auto;
+    border-radius: 16px;
+}
+.c2>.row>.col-lg-6>span{
+    display: flex;
+    align-items: center;
+    font-family: "barlow condensed";
+
+}
+.pad{
+    box-sizing: border-box;
+    padding: 2px 30px 2px 30px;
+}
+.c2>.row>.col-lg-6>span>i{
+    color: rgb(152, 13, 13);
+    font-weight: 700;
+    margin-bottom:2%;
+}
+.c2>.row>.col-lg-6>span>section{
+   text-decoration: line-through;
+}
+.c2>.row>.col-lg-6>h1{
+    text-align: center;
+    color: rgb(129, 4, 4);
+    font-family: "barlow condensed";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#h2 {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+#p3{
+    font-family: "barlow condensed";
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#p4 {
+    font-family: "barlow condensed";
+    font-weight: 700;
+    text-align: center;
+    color: orange;
+}
+
+/*  */
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05); /* Reduced pop */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.popping-btn {
+    animation: pop 1.5s ease-in-out infinite;
+    padding: 30px 58px 30px 58px;
+    display: flex;
+    font-family: "passion one";
+    font-weight: 900;
+    justify-content: center;
+    background-color: red;
+}
+
+#shadow {
+    text-shadow: 2px 2px 5px black;
+    min-width: 230px;
+}
+
+#shadow:hover {
+    text-decoration: underline;
+}
+
+.popping-btn > i {
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+#buttonhead {
+    display: grid;
+    place-items: center;
+}
+
+#buttonhead > p {
+    margin-top: 12px;
+    font-weight: 700;
+    color: grey;
+}
+
+#buttonhead > img {
+    height: 50px;
+    width: 280px;
+}
+.c5e1{
+    max-width: 900px;
+}
+.c5e1>#p3{
+   margin-bottom: -40px;
+   line-height: 50px;
+  
+}
+.c5e1>span>i{
+color: rgb(150, 19, 19);
+}
+.c5e1>span{
+    display: flex;
+}
+@media (max-width: 1200px) {
+    #textbox > p {
+        font-size: 60px; /* Slightly smaller font size for medium screens */
+    }
+}
+
+@media (max-width: 900px) {
+    #textbox > p {
+        font-size: 50px; /* Further reduction for smaller screens */
+    }
+}
+
+@media (max-width: 600px) {
+    #textbox > p {
+        font-size: 40px; /* Smaller font for very small screens */
+    }
+    #popper{
+      width: 320px;
+    }
+}
+
+@media (max-width: 400px) {
+    #textbox > p {
+        font-size: 30px; /* Even smaller font for ultra-small screens */
+    }
+}
+@media(max-width:700px){
+    #hide{
+        display: none;
+    }
+    nav>button{
+        display: grid;
+    }
+}
   
