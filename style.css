@@ -1,7 +1,7 @@
 
-.html{
-    overflow-x:hidden ;
-}
+html, body {
+    overflow-x: hidden;
+  }
 .container{
     width: 100%;
     min-width: 320px;
@@ -403,10 +403,7 @@ nav>button>i{
     font-family: "barlow condensed";
 
 }
-.pad{
-    box-sizing: border-box;
-    padding: 2px 30px 2px 30px;
-}
+
 .c2>.row>.col-lg-6>span>i{
     color: rgb(152, 13, 13);
     font-weight: 700;
@@ -506,6 +503,10 @@ color: rgb(150, 19, 19);
 .c5e1>span{
     display: flex;
 }
+.pad{
+    box-sizing: border-box;
+    padding: 2px 30px 2px 30px;
+}
 @media (max-width: 1200px) {
     #textbox > p {
         font-size: 60px; /* Slightly smaller font size for medium screens */
@@ -514,22 +515,22 @@ color: rgb(150, 19, 19);
 
 @media (max-width: 900px) {
     #textbox > p {
-        font-size: 50px; /* Further reduction for smaller screens */
+        font-size: 40px; /* Further reduction for smaller screens */
     }
 }
 
 @media (max-width: 600px) {
     #textbox > p {
-        font-size: 40px; /* Smaller font for very small screens */
+        font-size: 30px; /* Smaller font for very small screens */
     }
     #popper{
-      width: 320px;
+      width:275px;
     }
 }
 
 @media (max-width: 400px) {
     #textbox > p {
-        font-size: 30px; /* Even smaller font for ultra-small screens */
+        font-size: 25px; /* Even smaller font for ultra-small screens */
     }
 }
 @media(max-width:700px){
